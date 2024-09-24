@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+	"name": "microrl-remaster",
+	"description": "Micro Read Line library for small and embedded devices [REMASTER]",
+	"version": "v2.5.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dimmykar/microrl-remaster"
+	},
+	"license": "Apache-2.0",
+	"keywords": [
+		"console",
+		"terminal",
+		"command-line",
+		"vt100",
+		"readline",
+		"shell",
+		"cli"
+	],
+	"build": {
+		"includeDir": "src/include/microrl/"
+	}
+
+}
